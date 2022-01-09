@@ -119,7 +119,7 @@ const DashBoardPage = () => {
               >
                 <ViewStudentRecord />
               </Modal>
-              <Button onClick={ViewStudentRecordshowModal}> Register</Button>
+              <Button onClick={ViewStudentRecordshowModal}> Records</Button>
               {/* </Link> */}
             </div>
             {/* SearchByRollNo */}
@@ -135,7 +135,7 @@ const DashBoardPage = () => {
               >
                 <SearchByRollNo />
               </Modal>
-              <Button onClick={SearchByRollNoshowModal}> Register</Button>
+              <Button onClick={SearchByRollNoshowModal}> Search </Button>
               {/* </Link> */}
             </div>
             {/* AverageOfCollege */}
@@ -151,7 +151,7 @@ const DashBoardPage = () => {
               >
                 <AverageOfCollege />
               </Modal>
-              <Button onClick={AverageOfCollegeshowModal}> Register</Button>
+              <Button onClick={AverageOfCollegeshowModal}> OverAll Average</Button>
               {/* </Link> */}
             </div>
           </div>

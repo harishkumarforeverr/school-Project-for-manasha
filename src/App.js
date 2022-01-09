@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div className="App">
       <Spin spinning={loading} indicator={antIcon} style={{}} size="large" />
-      <h1 className="Unversity_h1">Unversity of the Manasha </h1>
+      <h1 className="Unversity_h1">Unversity of the Manasa </h1>
 
       <Switch>
         <Route path="/" exact={true}>
