@@ -23,6 +23,7 @@ const validateMessages = {
   },
 };
 const RegisterStudent = ({setIsModalVisible}) => {
+  const [form] = Form.useForm();
   const history = useHistory();
   const dispatch = useDispatch();
   const onFinish = (formdata) => {
@@ -33,6 +34,7 @@ const RegisterStudent = ({setIsModalVisible}) => {
     });
     history.push("/");
     setIsModalVisible(false);
+    form.resetFields();
   };
   return (
     <div className="form">
