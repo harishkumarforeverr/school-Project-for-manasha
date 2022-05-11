@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="63" viewBox="0 0 152 63">
+  <defs>
+    <filter id="Rectangle_514" x="0" y="0" width="152" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_awesome-google-play" x="13.239" y="9.702" width="44.22" height="44.22" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tab" x="50" y="9" width="82" height="45" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_790" data-name="Group 790" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_514)">
+      <rect id="Rectangle_514-2" data-name="Rectangle 514" width="134" height="45" rx="11" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Icon_awesome-google-play)">
+      <path id="Icon_awesome-google-play-2" data-name="Icon awesome-google-play" d="M18.825,12,6.285.666,22.24,8.923,18.825,12ZM3.012,0A1.982,1.982,0,0,0,1.779,1.808v22.6A1.982,1.982,0,0,0,3.012,26.22l14.58-13.113Zm24.16,11.556L23.826,9.809l-3.733,3.3,3.733,3.3,3.415-1.747a1.927,1.927,0,0,0-.068-3.114Zm-20.888,14L22.24,17.3l-3.415-3.078Z" transform="translate(20.46 15.7)" fill="#2900ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Tab)">
+      <text id="Tab-2" data-name="Tab" transform="translate(59 24)" fill="#1d2121" font-size="9" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Get it on</tspan><tspan font-size="12"><tspan x="0" y="15">Google Play</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

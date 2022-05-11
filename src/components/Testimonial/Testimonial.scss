@@ -1,0 +1,94 @@
+.Testimonial {
+  width: 80%;
+  margin: 2rem auto;
+  margin-top: 13rem;
+  .Testimonial_container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fceeff;
+    border-radius: 20px;
+    position: relative;
+    height: 25rem;
+    margin-bottom: 10rem;
+    .conetent {
+      display: grid;
+      grid-template-columns: 0.5fr 1fr;
+    }
+  }
+  .testinomalImage {
+    width: 24rem;
+    // background: linear-gradient(90deg, white 50%, #fceeff 50%);
+  }
+  .title {
+    text-align: center;
+    font-size: 2.87rem;
+    font-weight: 600;
+    opacity: 0.8;
+    opacity: 0.8;
+  }
+  .fullelipse {
+    position: absolute;
+    transform: translate(50%, -50%);
+    top: 0;
+    z-index: -1;
+    width: 28rem;
+    right: 0;
+  }
+
+  .ellipse {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+    z-index: -1;
+    width: 17rem;
+  }
+  .icons {
+    position: absolute;
+    bottom: 0;
+    right: 17px;
+    display: flex;
+    gap: 1rem;
+    .leftIcon {
+      svg {
+        opacity: 0.6;
+      }
+    }
+    .anticon {
+      box-shadow: 0 6px 16px -8px #00000014, 0 9px 28px #0000000d,
+        0 12px 48px 16px #00000008;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      background-color: white;
+      border-radius: 50%;
+      font-size: 1.536rem;
+      color: #5333ff;
+      cursor: pointer;
+      margin-bottom: 1rem;
+      padding: 1rem;
+
+      svg {
+        font-size: 1.57rem;
+      }
+    }
+  }
+  .text {
+    display: grid;
+    align-items: center;
+    h2 {
+      font-size: 1.836rem;
+      color: #000000c7;
+      opacity: 0.9;
+      font-weight: 500;
+    }
+    h1 { 
+      font-size: 1.836rem;
+      opacity: 0.9;
+    }
+    h3 {
+      font-size: 1.836rem;
+      color: #5333ff;
+    }
+  }
+}

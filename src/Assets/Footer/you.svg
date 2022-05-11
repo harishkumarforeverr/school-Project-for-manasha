@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.665" height="47.999" viewBox="0 0 60.665 47.999">
+  <defs>
+    <filter id="youtube" x="0" y="0" width="60.665" height="47.999" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#youtube)">
+    <path id="youtube-2" data-name="youtube" d="M42.824,9.194a5.361,5.361,0,0,0-3.772-3.8c-3.327-.9-16.669-.9-16.669-.9s-13.342,0-16.669.9a5.361,5.361,0,0,0-3.772,3.8C1.05,12.543,1.05,19.53,1.05,19.53s0,6.987.892,10.336A5.281,5.281,0,0,0,5.714,33.6c3.327.9,16.669.9,16.669.9s13.342,0,16.669-.9a5.281,5.281,0,0,0,3.772-3.736c.892-3.349.892-10.336.892-10.336s0-6.987-.892-10.336Zm-24.8,16.68V13.186L29.17,19.53,18.019,25.874Z" transform="translate(7.95 1.5)" fill="#fff"/>
+  </g>
+</svg>

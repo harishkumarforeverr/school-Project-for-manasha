@@ -1,43 +1,26 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import AddVisibility from "./components/AddVisibility/AddVisibility";
+import Header from "./components/Header/Header";
 import "./App.scss";
-import DashBoardPage from "./Components/DashBoardPage";
-import RegisterStudent from "./Components/RegisterStudent";
-import SearchByRollNo from "./Components/SearchByRollNo";
-import SumOfThreeSubjects from "./Components/SumOfThreeSubjects";
-import ViewStudentRecord from "./Components/ViewStudentRecord";
-import AverageOfCollege from "./Components/AverageOfCollege";
-import { Button, Input, Table, message, Spin } from "antd";
-import { LoadingOutlined } from "@ant-design/icons";
-import { Switch, Route, Link, Redirect } from "react-router-dom";
+import TimeManagement from "./components/TimeManagement/TimeManagement";
+import TaskManager from "./components/TaskManager/TaskManager";
+import Kanban from "./components/kanban/Kanban";
+import CreateShare from "./components/CreateShare/CreateShare";
+import Testimonial from "./components/Testimonial/Testimonial";
+import Footer from "./components/Footer/Footer";
 const App = () => {
-  const [loading, setLoading] = useState(false);
-  const antIcon = <LoadingOutlined spin />;
   return (
     <div className="App">
-      <Spin spinning={loading} indicator={antIcon} style={{}} size="large" />
-      <h1 className="Unversity_h1">Unversity of the Manasa </h1>
-
-      <Switch>
-        <Route path="/" exact={true}>
-          <DashBoardPage />
-        </Route>
-        <Route path="/RegisterStudent">
-          <RegisterStudent />
-        </Route>
-        <Route path="/SearchByRollNo">
-          <SearchByRollNo />
-        </Route>
-        <Route path="/AverageOfCollege">
-          <AverageOfCollege />
-        </Route>
-        <Route path="/ViewStudentRecord">
-          <ViewStudentRecord />
-        </Route>
-        <Route path="*">
-          <Redirect to="/" />
-        </Route>
-      </Switch>
+      <Header />
+      <AddVisibility />
+      <TimeManagement />
+      <TaskManager />
+      <Kanban />
+      <CreateShare />
+      <Testimonial />
+      <Footer />
     </div>
   );
 };
+
 export default App;

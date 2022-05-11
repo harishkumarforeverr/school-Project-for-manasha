@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64.148" height="55.481" viewBox="0 0 64.148 55.481">
+  <defs>
+    <filter id="twitter" x="0" y="0" width="64.148" height="55.481" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#twitter)">
+    <path id="twitter-2" data-name="twitter" d="M41.4,12.722c.029.41.029.82.029,1.23,0,12.5-9.517,26.91-26.91,26.91A26.728,26.728,0,0,1,0,36.616a19.566,19.566,0,0,0,2.284.117,18.942,18.942,0,0,0,11.742-4.041,9.475,9.475,0,0,1-8.843-6.559,11.927,11.927,0,0,0,1.786.146,10,10,0,0,0,2.489-.322,9.459,9.459,0,0,1-7.584-9.282v-.117a9.525,9.525,0,0,0,4.275,1.2A9.472,9.472,0,0,1,3.221,5.108a26.884,26.884,0,0,0,19.5,9.9,10.677,10.677,0,0,1-.234-2.167A9.467,9.467,0,0,1,38.857,6.368a18.621,18.621,0,0,0,6-2.284A9.433,9.433,0,0,1,40.7,9.3a18.961,18.961,0,0,0,5.446-1.464,20.331,20.331,0,0,1-4.744,4.89Z" transform="translate(9 2.62)" fill="#fff"/>
+  </g>
+</svg>

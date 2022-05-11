@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53.24" height="53.24" viewBox="0 0 53.24 53.24">
+  <defs>
+    <filter id="linkedin" x="0" y="0" width="53.24" height="53.24" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#linkedin)">
+    <path id="linkedin-2" data-name="linkedin" d="M7.888,35.24H.582V11.713H7.888ZM4.231,8.5A4.251,4.251,0,1,1,8.462,4.232,4.267,4.267,0,0,1,4.231,8.5Zm31,26.737h-7.29V23.787c0-2.73-.055-6.23-3.8-6.23-3.8,0-4.381,2.966-4.381,6.033V35.24h-7.3V11.713h7.007v3.209h.1a7.677,7.677,0,0,1,6.913-3.8c7.394,0,8.753,4.869,8.753,11.194V35.24Z" transform="translate(9 6)" fill="#fff"/>
+  </g>
+</svg>

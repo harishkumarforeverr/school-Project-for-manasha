@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79.763" height="79.763" viewBox="0 0 79.763 79.763">
+  <defs>
+    <filter id="Icon_open-graph" x="0" y="0" width="79.763" height="79.763" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_open-graph)">
+    <path id="Icon_open-graph-2" data-name="Icon open-graph" d="M54.275,0,30.882,23.161l-7.72-7.72L0,38.834l7.72,7.72L23.161,30.882l7.72,7.72L61.763,7.72ZM0,54.043v7.72H61.763v-7.72Z" transform="translate(9 6)" fill="#5433ff"/>
+  </g>
+</svg>

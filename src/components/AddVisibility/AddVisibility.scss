@@ -1,0 +1,55 @@
+.AddVisibility {
+  .AddVisibility_title {
+    position: relative;
+    .ellipse {
+      position: absolute;
+      top: -49%;
+      width: 7rem;
+      left: 15%;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.87rem;
+      font-weight: 500;
+    }
+    .halfEllipse {
+      position: absolute;
+      right: 0;
+      transform: translate(50%, -50%);
+      width: 24rem;
+    }
+  }
+  .categroies {
+    // background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+    margin: 0 auto;
+    .categroies_container {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      .content {
+        box-shadow: 0 6px 16px -8px #00000014, 0 9px 28px #0000000d,
+          0 12px 48px 16px #00000008;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        width: 10rem;
+        height: 9rem;
+        background-color: white;
+        border-radius: 50%;
+        img {
+          width: 60%;
+        }
+      }
+      h2 {
+        white-space: nowrap;
+        text-align: center;
+        font-size: 1.87rem;
+        font-weight: 500;
+      }
+    }
+  }
+}

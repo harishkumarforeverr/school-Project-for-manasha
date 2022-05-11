@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="151" height="63" viewBox="0 0 151 63">
+  <defs>
+    <filter id="Rectangle_515" x="0" y="0" width="151" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_zocial-appstore" x="12.878" y="8.439" width="41.731" height="44.22" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_791" data-name="Group 791" transform="translate(8.639 5.699)">
+    <g transform="matrix(1, 0, 0, 1, -8.64, -5.7)" filter="url(#Rectangle_515)">
+      <rect id="Rectangle_515-2" data-name="Rectangle 515" width="133" height="45" rx="11" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <text id="Tab" transform="translate(49.361 18.301)" fill="#1d2121" font-size="9" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Available on the</tspan><tspan font-size="13"><tspan x="0" y="16">App Store</tspan></tspan></text>
+    <g transform="matrix(1, 0, 0, 1, -8.64, -5.7)" filter="url(#Icon_zocial-appstore)">
+      <path id="Icon_zocial-appstore-2" data-name="Icon zocial-appstore" d="M2.818,11.644q-.028.472-.028.944a14.151,14.151,0,0,0,.552,3.776,16.229,16.229,0,0,0,2.29,4.825q2.456,3.566,4.746,3.592a5.951,5.951,0,0,0,2.152-.551,6.793,6.793,0,0,1,2.621-.551h.11a6.414,6.414,0,0,1,2.511.524,5.5,5.5,0,0,0,2.1.577,3.789,3.789,0,0,0,2.511-1.075,16.6,16.6,0,0,0,2.345-2.727,26.132,26.132,0,0,0,1.794-3.173,6.1,6.1,0,0,1-2.346-1.495,5.309,5.309,0,0,1-1.325-2.229,5.727,5.727,0,0,1-.247-1.835v-.629a4.8,4.8,0,0,1,.924-2.4A6.062,6.062,0,0,1,25.694,7.37,7.655,7.655,0,0,0,23.238,5.4,6.268,6.268,0,0,0,20.4,4.7a8.759,8.759,0,0,0-2.911.564,7.941,7.941,0,0,1-2.358.564,8.718,8.718,0,0,1-2.5-.564,9.081,9.081,0,0,0-2.8-.564,6.371,6.371,0,0,0-3.16.878A7.929,7.929,0,0,0,4.032,8,7.417,7.417,0,0,0,2.818,11.644ZM14.27,4.879a3.811,3.811,0,0,1-.084-.787A5.159,5.159,0,0,1,15.649.71,6.275,6.275,0,0,1,17.568-.758a5.9,5.9,0,0,1,2.276-.682,5.61,5.61,0,0,1,.055.787,5.335,5.335,0,0,1-1.38,3.461,5.8,5.8,0,0,1-1.932,1.521,4.591,4.591,0,0,1-2.208.551H14.27Z" transform="translate(19.09 15.88)" fill="#2900ff"/>
+    </g>
+  </g>
+</svg>
